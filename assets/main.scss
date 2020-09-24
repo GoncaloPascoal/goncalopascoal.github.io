@@ -3,6 +3,8 @@
 
 @import "{{ site.theme }}";
 
+/* JetBrains Mono font */
+
 @font-face {
     font-family: 'JetBrains Mono';
     src: url(fonts/JetBrainsMono-Regular.ttf) format("truetype");
@@ -27,6 +29,36 @@
     src: url(fonts/JetBrainsMono-Bold-Italic.ttf) format("truetype");
 }
 
+/* Roboto font */
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: bold;
+    src: url(fonts/Roboto-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Roboto;
+    font-style: italic;
+    src: url(fonts/Roboto-Italic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: bold;
+    font-style: italic;
+    src: url(fonts/Roboto-BoldItalic.ttf) format("truetype");
+}
+
 code {
     font-family: 'JetBrains Mono';
+}
+
+body {
+    font-family: Roboto;
 }
