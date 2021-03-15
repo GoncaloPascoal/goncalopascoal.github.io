@@ -29,36 +29,57 @@
     src: url(fonts/JetBrainsMono-Bold-Italic.ttf) format("truetype");
 }
 
-/* Roboto font */
+/* Open Sans font */
 
 @font-face {
-    font-family: Roboto;
-    src: url(fonts/Roboto-Regular.ttf) format("truetype");
+    font-family: 'Open Sans';
+    src: url(fonts/OpenSans-Regular.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: Roboto;
+    font-family: 'Open Sans';
     font-weight: bold;
-    src: url(fonts/Roboto-Bold.ttf) format("truetype");
+    src: url(fonts/OpenSans-Bold.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: Roboto;
+    font-family: 'Open Sans';
     font-style: italic;
-    src: url(fonts/Roboto-Italic.ttf) format("truetype");
+    src: url(fonts/OpenSans-Italic.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: Roboto;
+    font-family: 'Open Sans';
     font-weight: bold;
     font-style: italic;
-    src: url(fonts/Roboto-BoldItalic.ttf) format("truetype");
+    src: url(fonts/OpenSans-BoldItalic.ttf) format('truetype');
 }
 
 code {
+    background-color: #263238;
     font-family: 'JetBrains Mono';
 }
 
 body {
-    font-family: Roboto;
+    font-family: 'Open Sans', sans-serif;
 }
+
+/*
+.highlight {
+    color: #EEFFFF;
+
+    .highlighter-rouge & {
+        background: #263238;
+    }
+
+    .c1 { color: #B2CCD6; }
+    .s { color: #C3E88D; }
+    .k { color: #C792EA; }
+    .kt { color: #C792EA; }
+    .kc { color: #FF5370; }
+    .n { color: #EEFFFF; }
+    .nf { color: #82AAFF; }
+    .o { color: #89DDF3; }
+    .p { color: #89DDF3; }
+}
+*/
