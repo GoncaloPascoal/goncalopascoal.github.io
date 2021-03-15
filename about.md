@@ -53,7 +53,7 @@ Additionally, I play the guitar, know a bit of piano and accordion and I'm curre
 * Miguel Araújo
 * Red Hot Chili Peppers
 * Pentakill
-* Jeremy Soule (The Elder Scrolls, Guild Wars, Harry Potter)
+* Jeremy Soule (The Elder Scrolls, Guild Wars)
 * Jesper Kyd (Assassin's Creed, Hitman)
 * Michael McCann (Deus Ex: Human Revolution)
 
