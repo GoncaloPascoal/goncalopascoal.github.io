@@ -32,27 +32,27 @@
 /* Open Sans font */
 
 @font-face {
-    font-family: 'Open Sans';
-    src: url(fonts/OpenSans-Regular.ttf) format('truetype');
+    font-family: 'Merriweather Sans';
+    src: url(fonts/MerriweatherSans-Regular.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Open Sans';
+    font-family: 'Merriweather Sans';
     font-weight: bold;
-    src: url(fonts/OpenSans-Bold.ttf) format('truetype');
+    src: url(fonts/MerriweatherSans-Bold.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Open Sans';
+    font-family: 'Merriweather Sans';
     font-style: italic;
-    src: url(fonts/OpenSans-Italic.ttf) format('truetype');
+    src: url(fonts/MerriweatherSans-Italic.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Open Sans';
+    font-family: 'Merriweather Sans';
     font-weight: bold;
     font-style: italic;
-    src: url(fonts/OpenSans-BoldItalic.ttf) format('truetype');
+    src: url(fonts/MerriweatherSans-BoldItalic.ttf) format('truetype');
 }
 
 code {
@@ -61,7 +61,40 @@ code {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.note {
+    padding: 0.75em;
+    background-color: #d3dee2;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+@media (max-width: 650px) { 
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+figure.review-cover-art {
+    max-width: 300px;
+    margin-bottom: 0;
+}
+
+.review-cover-art figcaption {
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+.review-metadata {
+    margin: 1em;
 }
 
 /*

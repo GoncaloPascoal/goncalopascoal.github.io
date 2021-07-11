@@ -50,6 +50,7 @@ Additionally, I play the guitar, know a bit of piano and accordion and I'm curre
 * Metallica
 * Green Day
 * Alphaville
+* Pink Floyd
 * Miguel Araújo
 * Red Hot Chili Peppers
 * Pentakill
