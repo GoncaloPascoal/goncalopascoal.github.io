@@ -3,65 +3,66 @@
 
 @import "{{ site.theme }}";
 
-/* JetBrains Mono font */
+/* Cascadia Code font */
 
 @font-face {
-    font-family: 'JetBrains Mono';
-    src: url(fonts/JetBrainsMono-Regular.ttf) format("truetype");
+    font-family: 'Cascadia Code';
+    src: url(fonts/CascadiaCode-Regular.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: 'JetBrains Mono';
+    font-family: 'Cascadia Code';
     font-weight: bold;
-    src: url(fonts/JetBrainsMono-Bold.ttf) format("truetype");
+    src: url(fonts/CascadiaCode-Bold.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: 'JetBrains Mono';
+    font-family: 'Cascadia Code';
     font-style: italic;
-    src: url(fonts/JetBrainsMono-Italic.ttf) format("truetype");
+    src: url(fonts/CascadiaCode-Italic.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: 'JetBrains Mono';
+    font-family: 'Cascadia Code';
     font-style: italic;
     font-weight: bold;
-    src: url(fonts/JetBrainsMono-Bold-Italic.ttf) format("truetype");
+    src: url(fonts/CascadiaCode-Bold-Italic.ttf) format("truetype");
 }
 
-/* Merriweather Sans font */
+/* Ubuntu font */
 
 @font-face {
-    font-family: 'Merriweather Sans';
-    src: url(fonts/MerriweatherSans-Regular.ttf) format('truetype');
+    font-family: 'Ubuntu';
+    src: url(fonts/Ubuntu-Regular.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Merriweather Sans';
+    font-family: 'Ubuntu';
     font-weight: bold;
-    src: url(fonts/MerriweatherSans-Bold.ttf) format('truetype');
+    src: url(fonts/Ubuntu-Bold.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Merriweather Sans';
+    font-family: 'Ubuntu';
     font-style: italic;
-    src: url(fonts/MerriweatherSans-Italic.ttf) format('truetype');
+    src: url(fonts/Ubuntu-Italic.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Merriweather Sans';
+    font-family: 'Ubuntu';
     font-weight: bold;
     font-style: italic;
-    src: url(fonts/MerriweatherSans-BoldItalic.ttf) format('truetype');
+    src: url(fonts/Ubuntu-BoldItalic.ttf) format('truetype');
 }
 
 code {
     background-color: #263238;
-    font-family: 'JetBrains Mono';
+    font-family: 'Cascadia Code';
 }
 
 body {
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: -0.1px;
 }
 
 .note {
