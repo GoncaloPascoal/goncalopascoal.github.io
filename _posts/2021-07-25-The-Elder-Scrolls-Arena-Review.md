@@ -34,13 +34,13 @@ permalink: reviews/the-elder-scrolls-arena
 *This review contains gameplay and narrative spoilers for The Elder Scrolls: Arena.*
 
 #### Table of Contents
-* [1. Setup and Modding](#1-setup-and-modding)
-* [2. Visuals](#2-visuals)
-* [3. Gameplay](#3-gameplay)
-* [4. Sound](#4-sound)
-* [5. Narrative](#5-narrative)
-* [6. Design](#6-design)
-* [7. Other Aspects](#7-other-aspects)
+- [1. Setup and Modding](#1-setup-and-modding)
+- [2. Visuals](#2-visuals)
+- [3. Gameplay](#3-gameplay)
+- [4. Sound](#4-sound)
+- [5. Narrative](#5-narrative)
+- [6. Design](#6-design)
+- [7. Other Aspects](#7-other-aspects)
 
 ### 1. Setup and Modding
 
@@ -63,7 +63,7 @@ Only a few dozen mods are available for Arena, judging by its [NexusMods page](h
 ### 2. Visuals
 
 <figure>
-    <img src="https://i.imgur.com/MItG2xF.jpg" alt="Starting Dungeon">
+    <img src="https://i.imgur.com/MItG2xF.jpeg" alt="Starting Dungeon">
     <figcaption>The Starting Dungeon</figcaption>
 </figure>
 
