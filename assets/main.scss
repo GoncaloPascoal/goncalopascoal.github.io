@@ -92,6 +92,36 @@ img {
     background-color: #d3dee2;
 }
 
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip > .tooltip-text {
+    visibility: hidden;
+    min-width: 60px;
+    background-color: #263238;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 4px 6px;
+    border-radius: 6px;
+
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    opacity: 0;
+    transition: opacity 0.25s ease-in;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
 .card {
     background-color: #d3dde9;
     box-shadow: 1px 1px 4px #95a4bb;

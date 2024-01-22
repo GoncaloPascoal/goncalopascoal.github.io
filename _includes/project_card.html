@@ -27,7 +27,10 @@
         <div class="project-technologies">
             {% for technology_id in project.technologies %}
                 {% assign technology = site.data.projects.technologies[technology_id] %}
-                <img src="{{ technology.devicon }}"/>
+                <div class="tooltip">
+                    <a href="{{ technology.website }}" target="_blank" rel="noreferrer"><img src="{{ technology.devicon }}"/></a>
+                    <span class="tooltip-text">{{ technology.name }}</span>
+                </div>
             {% endfor %}
         </div>
     </div>
