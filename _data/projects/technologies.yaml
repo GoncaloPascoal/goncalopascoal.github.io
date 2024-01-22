@@ -1,80 +1,111 @@
-vue:
-  name: VueJS
-  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg
-  website: https://vuejs.org
-go:
-  name: Go
-  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg
-  website: https://go.dev
-mysql:
-  name: MySQL
-  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg
-  website: https://www.mysql.com
-rust:
-  name: Rust
-  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg
-  website: https://www.rust-lang.org
-python:
-  name: Python
-  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg
-  website: https://www.python.org
-godot:
-  name: Godot Engine
-  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original.svg
-  website: https://godotengine.org
-flutter:
-  name: Flutter
-  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg
-  website: https://flutter.dev
-ruby:
-  name: Ruby
-  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg
-  website: https://www.ruby-lang.org
-markdown:
-  name: Markdown
-  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg
-  website: https://www.markdownguide.org
-html:
-  name: HTML
-  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg
-  website: https://en.wikipedia.org/wiki/HTML
-css:
-  name: CSS
-  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg
-  website: https://en.wikipedia.org/wiki/CSS
-ray:
-  name: Ray
-  devicon: https://avatars.githubusercontent.com/u/22125274?s=200&v=4
-  website: https://www.ray.io
-numpy:
-  name: NumPy
-  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg
-  website: https://numpy.org
-pytorch:
-  name: PyTorch
-  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg
-  website: https://pytorch.org
-pandas:
-  name: Pandas
-  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg
-  website: https://pandas.pydata.org
-cpp:
-  name: C++
-  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg
-  website: https://en.wikipedia.org/wiki/C%2B%2B
-cmake:
-  name: CMake
-  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original.svg
-  website: https://cmake.org
 apache_solr:
-  name: Apache Solr
   devicon: https://upload.wikimedia.org/wikipedia/commons/c/cd/Apache_Solr_logo.svg
+  name: Apache Solr
   website: https://solr.apache.org
+aseprite:
+  devicon: /assets/images/aseprite.png
+  name: Aseprite
+  website: https://www.aseprite.org
+cmake:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original.svg
+  name: CMake
+  website: https://cmake.org
+cpp:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg
+  name: C++
+  website: https://en.wikipedia.org/wiki/C%2B%2B
+css:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg
+  name: CSS
+  website: https://en.wikipedia.org/wiki/CSS
+flutter:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg
+  name: Flutter
+  website: https://flutter.dev
+go:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg
+  name: Go
+  website: https://go.dev
+godot:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original.svg
+  name: Godot Engine
+  website: https://godotengine.org
+html:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg
+  name: HTML
+  website: https://en.wikipedia.org/wiki/HTML
+jade:
+  name: JADE
+  website: https://jade.tilab.com
 java:
-  name: Java
   devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg
+  name: Java
   website: https://www.java.com
 latex:
-  name: LaTeX
   devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg
+  name: LaTeX
   website: https://www.latex-project.org
+markdown:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg
+  name: Markdown
+  website: https://www.markdownguide.org
+mesa:
+  devicon: https://mesa.readthedocs.io/en/stable/_static/mesa_logo.png
+  name: Mesa
+  website: https://mesa.readthedocs.io
+mysql:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg
+  name: MySQL
+  website: https://www.mysql.com
+numpy:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg
+  name: NumPy
+  website: https://numpy.org
+pandas:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg
+  name: Pandas
+  website: https://pandas.pydata.org
+python:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg
+  name: Python
+  website: https://www.python.org
+pytorch:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg
+  name: PyTorch
+  website: https://pytorch.org
+qiskit:
+  name: Qiskit
+  devicon: https://upload.wikimedia.org/wikipedia/commons/5/51/Qiskit-Logo.svg
+  website: https://qiskit.org
+ray:
+  devicon: https://avatars.githubusercontent.com/u/22125274?s=200&v=4
+  name: Ray
+  website: https://www.ray.io
+retroarch:
+  devicon: https://upload.wikimedia.org/wikipedia/commons/3/3b/Retroarch.svg
+  name: RetroArch
+  website: https://www.retroarch.com
+ruby:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg
+  name: Ruby
+  website: https://www.ruby-lang.org
+rust:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg
+  name: Rust
+  website: https://www.rust-lang.org
+unity:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg
+  name: Unity
+  website: https://unity.com
+vue:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg
+  name: VueJS
+  website: https://vuejs.org
+xtext:
+  devicon: https://upload.wikimedia.org/wikipedia/en/d/db/Xtext_logo.png
+  name: Xtext
+  website: https://eclipse.dev/Xtext
+zeromq:
+  devicon: /assets/images/zeromq.png
+  name: ZeroMQ
+  website: https://www.zeromq.com

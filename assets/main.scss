@@ -164,7 +164,8 @@ img {
     width: 32%;
 
     > img {
-        height: 165px;
+        min-height: 165px;
+        max-height: 165px;
     }
 
     > .card-content {
@@ -211,6 +212,8 @@ img {
         img {
             border-radius: 0;
             height: 36px;
+            max-width: 56px;
+            object-fit: scale-down;
         }
     }
 }

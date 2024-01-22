@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Unified Search System for Steam Games
+image: /assets/images/pri_proj.png
 current: false
 publish_date: 2022-01-07
 tags: [university]
-technologies: [apache_solr, python, pandas]
+technologies: [apache_solr, python, pandas, latex]
 description:
     "Aggregates Steam game data from multiple sources (public datasets, APIs, website scraping),
     allowing for more complex queries and searches."

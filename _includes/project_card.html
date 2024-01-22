@@ -4,12 +4,15 @@
         <div class="project-header">
             <h3 class="project-title">
                 {{ project.title }}
+                {% if project.external_link %}
+                <a href="{{ project.external_link }}" target="_blank"><i class="fa fa-link"></i></a>
+                {% endif %}
                 {% if project.repository %}
                 <a href="{{ project.repository }}" target="_blank"><i class="fa-brands fa-github"></i></a>
                 {% endif %}
             </h3>
             {% if project.publish_date %}
-            <span class="project-date">{{ project.publish_date | date: "%b. %Y" }}</span>
+            <span class="project-date">{{ project.publish_date | date: "%b %Y" }}</span>
             {% endif %}
         </div>
         <p class="project-description">{{ project.description }}</p>
@@ -28,7 +31,7 @@
             {% for technology_id in project.technologies %}
                 {% assign technology = site.data.projects.technologies[technology_id] %}
                 <div class="tooltip">
-                    <a href="{{ technology.website }}" target="_blank" rel="noreferrer"><img src="{{ technology.devicon }}"/></a>
+                    <a href="{{ technology.website }}" target="_blank" rel="noreferrer"><img src="{{ technology.devicon | default: "/assets/images/default_technology.png" }}"/></a>
                     <span class="tooltip-text">{{ technology.name }}</span>
                 </div>
             {% endfor %}
