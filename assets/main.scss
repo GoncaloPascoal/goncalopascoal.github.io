@@ -239,6 +239,22 @@ img {
     }
 }
 
+@media (max-width: 600px) {
+    .projects {
+        flex-direction: column;
+    }
+
+    .project {
+        width: 100%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {
+    .project {
+        width: 48%;
+    }
+}
+
 figure.review-cover-art {
     max-width: 300px;
     margin-bottom: 0;
