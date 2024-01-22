@@ -16,7 +16,7 @@ The main projects I am currently working on.
 </section>
 
 ## Past
-Projects I have worked on in the past, but which I have put on hold or do not intend to update further.
+Projects I have worked on in the past but have put on hold or don't intend to update further.
 
 <section class="projects">
     {% assign sorted_projects = site.projects | where: "current", false | sort: "publish_date", "last" | reverse %}
