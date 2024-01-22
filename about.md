@@ -1,7 +1,8 @@
 ---
 layout: page
 title: About
-permalink: /about/
+emoji: ℹ️
+permalink: /about
 ---
 
 My name is Gonçalo. 

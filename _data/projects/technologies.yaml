@@ -1,0 +1,57 @@
+vue:
+  name: VueJS
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg
+go:
+  name: Go
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg
+mysql:
+  name: MySQL
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg
+rust:
+  name: Rust
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg
+python:
+  name: Python
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg
+godot:
+  name: Godot Engine
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original.svg
+flutter:
+  name: Flutter
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg
+ruby:
+  name: Ruby
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg
+markdown:
+  name: Markdown
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg
+html:
+  name: HTML
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg
+css:
+  name: CSS
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg
+ray:
+  name: Ray
+  devicon: https://avatars.githubusercontent.com/u/22125274?s=200&v=4
+numpy:
+  name: NumPy
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg
+pytorch:
+  name: PyTorch
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg
+pandas:
+  name: Pandas
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg
+cpp:
+  name: C++
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg
+cmake:
+  name: CMake
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original.svg
+apache_solr:
+  name: Apache Solr
+  devicon: https://upload.wikimedia.org/wikipedia/commons/c/cd/Apache_Solr_logo.svg
+java:
+  name: Java
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg

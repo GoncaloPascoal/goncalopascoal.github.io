@@ -1,0 +1,34 @@
+<article class="card project">
+    <img src="{{ project.image | default: "/assets/images/default_project.jpg" }}">
+    <div class="card-content">
+        <div class="project-header">
+            <h3 class="project-title">
+                {{ project.title }}
+                {% if project.repository %}
+                <a href="{{ project.repository }}" target="_blank"><i class="fa-brands fa-github"></i></a>
+                {% endif %}
+            </h3>
+            {% if project.publish_date %}
+            <span class="project-date">{{ project.publish_date | date: "%b. %Y" }}</span>
+            {% endif %}
+        </div>
+        <p class="project-description">{{ project.description }}</p>
+        {% if project.tags != empty %}
+            <div class="project-tags">
+                {% for tag_id in project.tags %}
+                    {% assign tag = site.data.projects.tags[tag_id] %}
+                    <span class="tag" style="background-color:{{ tag.color }}">
+                        {{ tag.name }}
+                    </span>
+                {% endfor %}
+            </div>
+        {% endif %}
+        <hr>
+        <div class="project-technologies">
+            {% for technology_id in project.technologies %}
+                {% assign technology = site.data.projects.technologies[technology_id] %}
+                <img src="{{ technology.devicon }}"/>
+            {% endfor %}
+        </div>
+    </div>
+</article>
