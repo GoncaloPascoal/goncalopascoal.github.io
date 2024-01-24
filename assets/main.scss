@@ -201,7 +201,7 @@ img {
         min-width: 22.5%;
         text-align: end;
         font-weight: bold;
-        color: #4b5b74;
+        color: #5e718d;
     }
 
     .project-technologies {
@@ -216,13 +216,26 @@ img {
             object-fit: scale-down;
         }
     }
+
+    .project-concepts {
+        margin-top: 0.3em;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.25em;
+    }
+
+    .project-concept {
+        background-color: #4a576b;
+        font-size: 12px;
+    }
 }
 
 .tag {
-    padding: 0.15em 0.75em;
-    border-radius: 1em;
     color: white;
     font-size: 14px;
+    font-weight: 500;
+    padding: 0.15em 0.7em;
+    border-radius: 1em;
 }
 
 .row {

@@ -6,6 +6,10 @@ current: false
 publish_date: 2022-06-30
 tags: [university, game]
 technologies: [unity]
+concepts:
+    - Game Design
+    - Level Design
+    - UI/UX
 description:
     "Soulslike action RPG with an egyptian theme. A tyrannical pharaoh murders the main character's
     brother, trapping his soul in a great pyramid."

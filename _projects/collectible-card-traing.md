@@ -6,6 +6,9 @@ current: false
 publish_date: 2022-05-16
 tags: [university]
 technologies: [java, jade]
+concepts:
+    - Multi-Agent Systems
+    - Game Theory
 description:
     "Simulates environment where agents can trade, buy & sell collectible cards. Value assigned
     to individual cards is subjective (e.g. collectors vs. competitive players). Agents can trade

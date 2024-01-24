@@ -6,6 +6,9 @@ current: false
 publish_date: 2023-01-10
 tags: [university]
 technologies: [rust, retroarch, latex]
+concepts:
+    - Emulation
+    - Systems Programming
 description:
     "CHIP-8 / S-CHIP emulator written in Rust. Runs as a RetroArch core
     and supports several execution 'quirks' that certain programs rely

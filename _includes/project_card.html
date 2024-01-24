@@ -36,5 +36,12 @@
                 </div>
             {% endfor %}
         </div>
+        {% if project.concepts %}
+        <div class="project-concepts">
+            {% for concept in project.concepts %}
+                <span class="tag project-concept">{{ concept }}</span>
+            {% endfor %}
+        </div>
+        {% endif %}
     </div>
 </article>

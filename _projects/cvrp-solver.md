@@ -6,6 +6,11 @@ current: false
 publish_date: 2022-07-01
 tags: [university]
 technologies: [cpp, cmake, python, latex]
+concepts:
+    - Data Structures
+    - Map Matching
+    - Search Algorithms
+    - Metaheuristics
 description:
     "Algorithms for solving large-scale CVRP instances (finding routes for a fleet of vehicles with
     multiple deliveries and a limited carrying capacity)."

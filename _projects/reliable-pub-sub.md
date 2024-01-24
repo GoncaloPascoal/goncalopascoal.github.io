@@ -6,6 +6,10 @@ current: false
 publish_date: 2021-11-26
 tags: [university]
 technologies: [python, zeromq]
+concepts:
+    - Distributed Systems
+    - Publish/Subscribe
+    - Fault Tolerance
 description:
     "Publish/Subscribe service implemented using the ZeroMQ library. Several fault tolerance
     mechanisms in place to ensure exactly-once message delivery (durable subscriptions, crash
