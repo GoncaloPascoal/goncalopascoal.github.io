@@ -18,6 +18,10 @@ css:
   devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg
   name: CSS
   website: https://en.wikipedia.org/wiki/CSS
+dart:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg
+  name: Dart
+  website: https://dart.dev
 flutter:
   devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg
   name: Flutter
@@ -90,7 +94,7 @@ ruby:
   name: Ruby
   website: https://www.ruby-lang.org
 rust:
-  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg
   name: Rust
   website: https://www.rust-lang.org
 unity:
