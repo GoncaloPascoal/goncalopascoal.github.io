@@ -6,7 +6,7 @@ permalink: /about
 ---
 
 My name is Gonçalo.
-I'm Portuguese and hold a Master's Degree in **Informatics and Computing Engineering** from [FEUP](https://sigarra.up.pt/feup/en/web_base.gera_pagina?p_pagina=boas%20vindas). I am currently working as a **Software Developer Trainee** at [Vestas](https://www.vestas.com/), developing a tool to assist in the structural design of wind turbine towers.
+I'm Portuguese and hold a Master's Degree in **Informatics and Computing Engineering** from [FEUP](https://sigarra.up.pt/feup/en/web_base.gera_pagina?p_pagina=boas%20vindas). I am currently working as a **Software Developer Trainee** at [Vestas](https://www.vestas.com/), developing a web-based application to assist in the structural analysis and design of wind turbine towers.
 I am interested in the design of algorithms and data structures, the challenges associated with developing for distributed and performance-critical software, and systems programming.
 
 My Master's dissertation, <a href="https://repositorio-aberto.up.pt/bitstream/10216/153420/3/646720.pdf" target="_blank">Noise-Adaptive Reinforcement Learning Strategies for Qubit Routing</a> leveraged deep reinforcement learning (specifically Proximal Policy Optimization) to compile quantum algorithms more efficiently for realistic architectures, in an effort to mitigate the adverse effects of noise on the outcome of computations. In particular, it tackled the NP-complete qubit routing problem, which arises due to the limited connectivity between qubits in many quantum computers. To ensure that a program adheres to these constraints, auxiliary operations must be inserted, and finding the optimal way to do so using the fewest additional operations is a challenging optimization problem.
@@ -59,6 +59,7 @@ Music also one of my passions. I mostly play the guitar and mandolin, and know a
 * Rui Veloso
 * Miguel Araújo
 * GNR
+* Os Quatro e Meia
 * Pentakill
 * Jeremy Soule (Elder Scrolls, Guild Wars)
 * Jesper Kyd (Assassin's Creed, Hitman)
