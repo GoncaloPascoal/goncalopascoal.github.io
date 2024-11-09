@@ -3,7 +3,7 @@ layout: post
 title: TEUP Website
 current: true
 tags: [personal]
-technologies: [python, mysql, vue]
+technologies: [python, mysql, vue, fastapi]
 concepts:
     - Web Development
     - Databases

@@ -20,7 +20,7 @@
             <div class="project-tags">
                 {% for tag_id in project.tags %}
                     {% assign tag = site.data.projects.tags[tag_id] %}
-                    <span class="tag" style="background-color:{{ tag.color }}">
+                    <span class="tag" style="background-color: {{ tag.color }}">
                         {{ tag.name }}
                     </span>
                 {% endfor %}

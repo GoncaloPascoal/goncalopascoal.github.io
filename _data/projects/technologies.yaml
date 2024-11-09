@@ -22,6 +22,10 @@ dart:
   devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg
   name: Dart
   website: https://dart.dev
+fastapi:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg
+  name: FastAPI
+  website: https://fastapi.tiangolo.com
 flutter:
   devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg
   name: Flutter

@@ -92,8 +92,8 @@ img {
 }
 
 .card {
-    background-color: #d3dde9;
-    box-shadow: 1px 1px 4px #95a4bb;
+    background: linear-gradient(305deg, rgb(189, 197, 216) 0%, rgb(221, 233, 240) 100%);
+    box-shadow: 1px 1px 4px #6e7a96;
     border-radius: 0.5em;
     line-height: 1.2;
 
@@ -107,7 +107,7 @@ img {
     hr {
         height: 1px;
         border-width: 0;
-        background-color: #95a4bb;
+        background-color: #74809d;
         margin: 0.4em 0;
     }
 
@@ -170,7 +170,7 @@ img {
         min-width: 22.5%;
         text-align: end;
         font-weight: bold;
-        color: #5e718d;
+        color: #4c5d75;
     }
 
     .project-technologies {
