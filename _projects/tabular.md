@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Tabular
+image: /assets/images/tabular.png
 current: false
 publish_date: 2022-12-19
 tags: [university]

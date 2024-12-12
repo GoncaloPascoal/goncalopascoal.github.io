@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Peer-to-Peer Distributed Backup Service
+image: /assets/images/sdis_proj2.jpg
 current: false
 publish_date: 2021-06-02
 tags: [university]

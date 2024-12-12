@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TEUP Website
+image: /assets/images/teup_website.png
 current: true
 tags: [personal]
 technologies: [python, mysql, vue, fastapi]
