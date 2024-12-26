@@ -52,10 +52,11 @@ Music also one of my passions. I mostly play the guitar and mandolin, and know a
 #### Musical Artists
 * Dire Straits
 * Depeche Mode
-* Metallica
 * Pink Floyd
-* Red Hot Chili Peppers
+* Metallica
+* Queen
 * Alphaville
+* Red Hot Chili Peppers
 * Rui Veloso
 * Miguel Araújo
 * GNR

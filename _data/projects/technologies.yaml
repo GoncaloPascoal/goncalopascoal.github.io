@@ -18,6 +18,10 @@ css:
   devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg
   name: CSS
   website: https://en.wikipedia.org/wiki/CSS
+csharp:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg
+  name: C#
+  website: https://learn.microsoft.com/en-us/dotnet/csharp
 dart:
   devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg
   name: Dart

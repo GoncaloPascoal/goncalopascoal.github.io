@@ -5,7 +5,7 @@ image: /assets/images/sands_of_vengeance.png
 current: false
 publish_date: 2022-06-30
 tags: [university, game]
-technologies: [unity]
+technologies: [unity, csharp]
 concepts:
     - Game Design
     - Level Design
