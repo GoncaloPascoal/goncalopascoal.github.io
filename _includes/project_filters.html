@@ -1,0 +1,68 @@
+<div class="project-filters">
+    <h4>Tags</h4>
+    <div class="project-filters-tags">
+        <button class="active" data-filter="*">All</button>
+        {% for tag in site.data.projects.tags %}
+            <button data-filter="{{ tag[0] }}">{{ tag[1].name }}</button>
+        {% endfor %}
+    </div>
+
+    <h4>Technologies</h4>
+    <div class="project-filters-technologies">
+    {% for technology in site.data.projects.technologies %}
+        <div class="tooltip">
+            <img src="{{ technology[1].devicon | default: "/assets/images/default_technology.png" }}" data-filter="{{ technology[0] }}"/>
+            <span class="tooltip-text">{{ technology[1].name }}</span>
+        </div>
+    {% endfor %}
+    </div>
+</div>
+
+<script>
+$('.project-filters-tags').on('click', 'button', function() {
+    const filterValue = $(this).attr('data-filter');
+
+    $('.project').each(function() {
+        const project = $(this);
+
+        if (
+            filterValue === '*'
+            || project.find('.project-tag').filter((_, tagElement) => tagElement.getAttribute('data') === filterValue).length > 0
+        ) {
+            project.removeClass('filter-tags-hide');
+        }
+        else {
+            project.addClass('filter-tags-hide');
+        }
+    });
+
+    $('.project-filters button').removeClass('active');
+    $(this).addClass('active');
+});
+
+$('.project-filters-technologies').on('click', 'img', function() {
+    const button = $(this);
+
+    if (button.hasClass('active')) {
+        button.removeClass('active');
+    }
+    else {
+        button.addClass('active');
+    }
+
+    const selectedTechnologies = new Set($('.project-filters-technologies img.active').map((_, elem) => elem.getAttribute('data-filter')));
+
+    $('.project').each(function() {
+        const project = $(this);
+        const projectTechnologies = new Set(project.find('.project-technology').map((_, elem) => elem.getAttribute('data')));
+
+        if (selectedTechnologies.isSubsetOf(projectTechnologies)) {
+            project.removeClass('filter-technologies-hide');
+        }
+        else {
+            project.addClass('filter-technologies-hide');
+        }
+    });
+});
+</script>
+    
