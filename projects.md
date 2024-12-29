@@ -5,7 +5,6 @@ emoji: 🏗️
 permalink: /projects
 ---
 
-### Filters
 {% include project_filters.html %}
 
 ## Current

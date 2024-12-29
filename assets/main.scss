@@ -138,26 +138,63 @@ img {
     }
 }
 
+.project-filters-container {
+    background: linear-gradient(305deg, rgb(190, 200, 220) 0%, rgb(200, 210, 220) 100%);
+    box-shadow: 1px 1px 4px #6e7a96;
+    border-radius: 12px;
+    margin-bottom: 1.2rem;
+
+    h3 {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0.5rem 0 0.4rem 1rem;
+        margin-bottom: 0;
+        cursor: pointer;
+    }
+}
+
+.project-filters-container:hover {
+    background: linear-gradient(305deg, rgb(185, 195, 215) 0%, rgb(195, 205, 215) 100%);
+}
+
+.project-filters.collapsed {
+    display: none;
+}
+
 .project-filters {
+    background-color: #eef;
+    border-top: 1px solid #d0d4dd;
+    border-radius: 0 0 12px 12px;
+    padding: 0.6rem 0.9rem;
+    overflow: hidden;
+
     h4 {
-        font-size: 17px;
+        font-size: 17.5px;
     }
 
-    background-color: #eef;
-    border-radius: 12px;
-    padding: 1em 1.2em;
-    margin-bottom: 2em;
+    a, img, button {
+        cursor: pointer;
+    }
 
-    .project-filters-tags {
+    .project-filters-tags, .project-filters-concepts {
         display: flex;
+        flex-wrap: wrap;
         gap: 0.5em;
         margin-bottom: 0.75em;
+    }
+
+    .project-filters-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.25em;
     }
 
     .project-filters-technologies {
         display: flex;
         flex-wrap: wrap;
         gap: 0.4em;
+        margin-bottom: 0.75em;
 
         img {
             border: 2px solid transparent;
@@ -183,7 +220,7 @@ img {
     }
 
     button {
-        padding: 0.6em 1.2em;
+        padding: 0.4em 0.8em;
         background-color: #d8d8e8;
         border: none;
         border-radius: 12px;
@@ -192,7 +229,7 @@ img {
     }
 
     button:hover {
-        background-color: #cce;
+        background-color: #ccd;
     }
 
     button.active {
@@ -208,14 +245,11 @@ img {
 .projects {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.8em;
-    margin-bottom: 1em;
+    justify-content: space-between;
+    gap: 1em;
+    margin-bottom: 1.5em;
 
-    .filter-tags-hide {
-        display: none;
-    }
-
-    .filter-technologies-hide {
+    .filter-tags-hide, .filter-technologies-hide, .filter-concepts-hide {
         display: none;
     }
 }
