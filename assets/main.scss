@@ -139,7 +139,7 @@ img {
 }
 
 .project-filters-container {
-    background: linear-gradient(305deg, rgb(190, 200, 220) 0%, rgb(200, 210, 220) 100%);
+    background-color: #cdcdde;
     box-shadow: 1px 1px 4px #6e7a96;
     border-radius: 12px;
     margin-bottom: 1.2rem;
@@ -151,10 +151,6 @@ img {
         margin-bottom: 0;
         cursor: pointer;
     }
-}
-
-.project-filters-container:hover {
-    background: linear-gradient(305deg, rgb(185, 195, 215) 0%, rgb(195, 205, 215) 100%);
 }
 
 .project-filters.collapsed {
