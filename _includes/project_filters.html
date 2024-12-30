@@ -1,0 +1,117 @@
+<div class="project-filters-container">
+    <h3><i class="fa-solid fa-filter"></i> Filter</h3>
+    <div class="project-filters collapsed">
+        <h4>Tags</h4>
+        <div class="project-filters-tags">
+            <button class="active" data-filter="*">All</button>
+            {% for tag in site.data.projects.tags %}
+                <button data-filter="{{ tag[0] }}">{{ tag[1].name }}</button>
+            {% endfor %}
+        </div>
+    
+        <div class="project-filters-header">
+            <h4>Technologies</h4>
+            <a id="project-filters-technologies-clear">Clear</a>
+        </div>
+        <div class="project-filters-technologies">
+        {% for technology in site.data.projects.technologies %}
+            <div class="tooltip">
+                <img src="{{ technology[1].devicon | default: "/assets/images/default_technology.png" }}" data-filter="{{ technology[0] }}"/>
+                <span class="tooltip-text">{{ technology[1].name }}</span>
+            </div>
+        {% endfor %}
+        </div>
+
+        <div class="project-filters-header">
+            <h4>Concepts</h4>
+            <a id="project-filters-concepts-clear">Clear</a>
+        </div>
+        <div class="project-filters-concepts">
+            {% assign concepts = site.projects | map: "concepts" | uniq | sort_natural %}
+            {% for concept in concepts %}
+                <button data-filter="{{ concept }}">{{ concept }}</button>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<script>
+$('.project-filters-container').on('click', 'h3', function() {
+    const filters = $('.project-filters');
+    filters.toggleClass('collapsed');
+});
+
+$('.project-filters-tags').on('click', 'button', function() {
+    const filterValue = $(this).attr('data-filter');
+
+    $('.project').each(function() {
+        const project = $(this);
+
+        if (
+            filterValue === '*'
+            || project.find('.project-tag').filter((_, tagElement) => tagElement.getAttribute('data') === filterValue).length > 0
+        ) {
+            project.removeClass('filter-tags-hide');
+        }
+        else {
+            project.addClass('filter-tags-hide');
+        }
+    });
+
+    $('.project-filters button').removeClass('active');
+    $(this).addClass('active');
+});
+
+function updateProjectsTechnologies() {
+    const selectedTechnologies = new Set($('.project-filters-technologies img.active').map((_, elem) => elem.getAttribute('data-filter')));
+
+    $('.project').each(function() {
+        const project = $(this);
+        const projectTechnologies = new Set(project.find('.project-technology').map((_, elem) => elem.getAttribute('data')));
+
+        if (selectedTechnologies.isSubsetOf(projectTechnologies)) {
+            project.removeClass('filter-technologies-hide');
+        }
+        else {
+            project.addClass('filter-technologies-hide');
+        }
+    });
+}
+
+$('.project-filters-technologies').on('click', 'img', function() {
+    $(this).toggleClass('active');
+    updateProjectsTechnologies();
+});
+
+$('#project-filters-technologies-clear').on('click', function() {
+    $('.project-filters-technologies img').removeClass('active');
+    updateProjectsTechnologies();
+});
+
+function updateProjectsConcepts() {
+    const selectedConcepts = new Set($('.project-filters-concepts button.active').map((_, elem) => elem.getAttribute('data-filter')));
+
+    $('.project').each(function() {
+        const project = $(this);
+        const projectConcepts = new Set(project.find('.project-concept').map((_, elem) => elem.innerHTML));
+
+        if (selectedConcepts.isSubsetOf(projectConcepts)) {
+            project.removeClass('filter-concepts-hide');
+        }
+        else {
+            project.addClass('filter-concepts-hide');
+        }
+    });
+}
+
+$('.project-filters-concepts').on('click', 'button', function() {
+    $(this).toggleClass('active');
+    updateProjectsConcepts();
+});
+
+$('#project-filters-concepts-clear').on('click', function() {
+    $('.project-filters-concepts button').removeClass('active');
+    updateProjectsConcepts();
+});
+</script>
+    

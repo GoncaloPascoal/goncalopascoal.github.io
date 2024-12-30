@@ -5,6 +5,8 @@ emoji: 🏗️
 permalink: /projects
 ---
 
+{% include project_filters.html %}
+
 ## Current
 The main projects I am currently working on.
 

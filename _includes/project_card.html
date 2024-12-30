@@ -20,7 +20,7 @@
             <div class="project-tags">
                 {% for tag_id in project.tags %}
                     {% assign tag = site.data.projects.tags[tag_id] %}
-                    <span class="tag" style="background-color: {{ tag.color }}">
+                    <span class="tag project-tag" style="background-color: {{ tag.color }}" data="{{ tag_id }}">
                         {{ tag.name }}
                     </span>
                 {% endfor %}
@@ -30,7 +30,7 @@
         <div class="project-technologies">
             {% for technology_id in project.technologies %}
                 {% assign technology = site.data.projects.technologies[technology_id] %}
-                <div class="tooltip">
+                <div class="tooltip project-technology" data="{{ technology_id }}">
                     <a href="{{ technology.website }}" target="_blank" rel="noreferrer"><img src="{{ technology.devicon | default: "/assets/images/default_technology.png" }}"/></a>
                     <span class="tooltip-text">{{ technology.name }}</span>
                 </div>

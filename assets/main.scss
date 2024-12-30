@@ -138,11 +138,116 @@ img {
     }
 }
 
+.project-filters-container {
+    background-color: #cdcdde;
+    box-shadow: 1px 1px 4px #6e7a96;
+    border-radius: 12px;
+    margin-bottom: 1.2rem;
+
+    h3 {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0.5rem 0 0.4rem 1rem;
+        margin-bottom: 0;
+        cursor: pointer;
+    }
+}
+
+.project-filters.collapsed {
+    display: none;
+}
+
+.project-filters {
+    background-color: #eef;
+    border-top: 1px solid #d0d4dd;
+    border-radius: 0 0 12px 12px;
+    padding: 0.6rem 0.9rem;
+    overflow: hidden;
+
+    h4 {
+        font-size: 17.5px;
+    }
+
+    a, img, button {
+        cursor: pointer;
+    }
+
+    .project-filters-tags, .project-filters-concepts {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5em;
+        margin-bottom: 0.75em;
+    }
+
+    .project-filters-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.25em;
+    }
+
+    .project-filters-technologies {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4em;
+        margin-bottom: 0.75em;
+
+        img {
+            border: 2px solid transparent;
+            border-radius: 8px;
+            padding: 4px;
+            height: 36px;
+            max-width: 56px;
+            object-fit: scale-down;
+        }
+
+        img:hover {
+            background-color: #cfe4ff;
+        }
+
+        img.active {
+            border: 2px solid #0963da;
+            background-color: #cfe4ff;
+        }
+
+        img.active:hover {
+            background-color: #bddbff;
+        }
+    }
+
+    button {
+        padding: 0.4em 0.8em;
+        background-color: #d8d8e8;
+        border: none;
+        border-radius: 12px;
+        font-family: inherit;
+        font-size: 14px;
+    }
+
+    button:hover {
+        background-color: #ccd;
+    }
+
+    button.active {
+        background-color: #0963da;
+        color: white;
+    }
+
+    button.active:hover {
+        background-color: #0e57b6;
+    }
+}
+
 .projects {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.8em;
-    margin-bottom: 1em;
+    justify-content: space-between;
+    gap: 1em;
+    margin-bottom: 1.5em;
+
+    .filter-tags-hide, .filter-technologies-hide, .filter-concepts-hide {
+        display: none;
+    }
 }
 
 .project {
