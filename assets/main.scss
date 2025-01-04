@@ -50,6 +50,20 @@ img {
     border-radius: 0.5em;
 }
 
+input[type=text], input[type=search] {
+    outline: none;
+    border: 1px solid #bcbccd;
+    border-radius: 8px;
+    padding: 2px 6px;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+input[type=text]:focus, input[type=search]:focus {
+    border: 2px solid #5192e7;
+    box-shadow: 0 0 4px #5192e7;
+}
+
 .website-title {
     margin-bottom: 1rem;
 
@@ -172,11 +186,28 @@ img {
         cursor: pointer;
     }
 
+    .project-filters-tags-search {
+        display: flex;
+
+        > div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-grow: 1;
+        }
+    }
+
+    #project-filters-search {
+        width: 100%;
+        height: 32px;
+        margin-bottom: 1rem;
+    }
+
     .project-filters-tags, .project-filters-concepts {
         display: flex;
         flex-wrap: wrap;
         gap: 0.5em;
-        margin-bottom: 0.75em;
+        margin-bottom: 1rem;
     }
 
     .project-filters-header {
@@ -190,7 +221,7 @@ img {
         display: flex;
         flex-wrap: wrap;
         gap: 0.4em;
-        margin-bottom: 0.75em;
+        margin-bottom: 1rem;
 
         img {
             border: 2px solid transparent;
@@ -241,11 +272,10 @@ img {
 .projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 1em;
+    gap: max(1.25rem, 2%);
     margin-bottom: 1.5em;
 
-    .filter-tags-hide, .filter-technologies-hide, .filter-concepts-hide {
+    .filter-tags-hide, .filter-technologies-hide, .filter-concepts-hide, .filter-search-hide {
         display: none;
     }
 }
@@ -351,6 +381,10 @@ img {
 
     .project {
         width: 100%;
+    }
+
+    .project-filters-tags-search {
+        flex-direction: column-reverse;
     }
 }
 

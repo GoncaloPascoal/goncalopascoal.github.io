@@ -1,13 +1,22 @@
 <div class="project-filters-container">
     <h3><i class="fa-solid fa-filter"></i> Filter</h3>
     <div class="project-filters collapsed">
-        <h4>Tags</h4>
-        <div class="project-filters-tags">
-            <button class="active" data-filter="*">All</button>
-            {% for tag in site.data.projects.tags %}
-                <button data-filter="{{ tag[0] }}">{{ tag[1].name }}</button>
-            {% endfor %}
+        <div class="project-filters-tags-search">
+            <div>
+                <h4>Tags</h4>
+                <div class="project-filters-tags">
+                    <button class="active" data-filter="*">All</button>
+                    {% for tag in site.data.projects.tags %}
+                        <button data-filter="{{ tag[0] }}">{{ tag[1].name }}</button>
+                    {% endfor %}
+                </div>
+            </div>
+            <div>
+                <h4>Search</h4>
+                <input type="search" id="project-filters-search" />
+            </div>
         </div>
+        
     
         <div class="project-filters-header">
             <h4>Technologies</h4>
@@ -60,6 +69,25 @@ $('.project-filters-tags').on('click', 'button', function() {
 
     $('.project-filters button').removeClass('active');
     $(this).addClass('active');
+});
+
+$('#project-filters-search').on('keyup', function() {
+    const input = $(this);
+    const text = input.val().toLowerCase();
+
+    $('.project').each(function() {
+        const project = $(this);
+
+        const title =  project.find('.project-title').first().text().toLowerCase();
+        const description = project.find('.project-description').first().text().toLowerCase();
+
+        if (text === '' || title.includes(text) || description.includes(text)) {
+            project.removeClass('filter-search-hide');
+        }
+        else {
+            project.addClass('filter-search-hide');
+        }
+    });
 });
 
 function updateProjectsTechnologies() {
