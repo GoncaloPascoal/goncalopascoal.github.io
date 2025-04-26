@@ -71,6 +71,6 @@ Music also one of my passions. I mostly play the guitar and mandolin, and know a
 * **1984** - George Orwell
 
 #### Programming Languages
-* C++
 * Rust
 * Python
+* C++
