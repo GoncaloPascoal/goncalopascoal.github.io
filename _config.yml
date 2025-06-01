@@ -23,9 +23,9 @@ email: goncalojpascoal@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: goncalojpascoal
-github_username:  goncalopascoal
+github_username:  GoncaloPascoal
 linkedin_username: goncalopascoal
+twitter_username: goncalojpascoal
 
 # Build settings
 theme: minima
