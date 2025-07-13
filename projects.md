@@ -8,7 +8,7 @@ permalink: /projects
 {% include project_filters.html %}
 
 ## Current
-The main projects I am currently working on.
+Main projects I am currently working on.
 
 <section class="projects">
     {% assign current_projects = site.projects | where: "current", true | sort: "publish_date", "last" | reverse %}
