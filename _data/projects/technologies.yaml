@@ -101,6 +101,10 @@ ray:
   devicon: https://avatars.githubusercontent.com/u/22125274?s=200&v=4
   name: Ray
   website: https://www.ray.io
+react:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg
+  name: React
+  website: https://react.dev
 retroarch:
   devicon: https://upload.wikimedia.org/wikipedia/commons/3/3b/Retroarch.svg
   name: RetroArch
