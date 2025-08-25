@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Kraken Tax Helper
+image: /assets/images/kraken_tax_helper.png
 current: true
 tags: [personal]
 technologies: [python, pandas]
