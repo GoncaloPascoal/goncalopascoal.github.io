@@ -45,6 +45,8 @@ Music also one of my passions. I mostly play the guitar and mandolin, and know a
 - **The Lord of the Rings Triology** - Peter Jackson
 - **Star Wars: Original Triology** - George Lucas
 - **The Social Network** - David Fincher
+- **Fight Club** - David Fincher
+- **The Big Short** - Adam McKay
 
 #### TV Series
 
