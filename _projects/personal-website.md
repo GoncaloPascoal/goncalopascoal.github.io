@@ -4,7 +4,7 @@ title: Personal Website
 image: /assets/images/computer.jpg
 current: true
 tags: [personal]
-technologies: [markdown, html, css, ruby]
+technologies: [markdown, ruby, html, css, javascript]
 concepts:
     - Web Development
     - UI/UX

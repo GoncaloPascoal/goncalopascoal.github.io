@@ -57,6 +57,10 @@ java:
   devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg
   name: Java
   website: https://www.java.com
+javascript:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg
+  name: JavaScript
+  website: https://en.wikipedia.org/wiki/JavaScript
 latex:
   devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg
   name: LaTeX
@@ -117,6 +121,10 @@ rust:
   devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg
   name: Rust
   website: https://www.rust-lang.org
+typescript:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg
+  name: TypeScript
+  website: https://www.typescriptlang.org
 unity:
   devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg
   name: Unity
