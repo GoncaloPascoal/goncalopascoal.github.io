@@ -5,7 +5,7 @@ image: /assets/images/pri_proj.png
 current: false
 publish_date: 2022-01-07
 tags: [university]
-technologies: [apache_solr, python, pandas, latex]
+technologies: [apache_solr, python, pandas, docker, latex]
 concepts:
     - Information Retrieval
     - Databases

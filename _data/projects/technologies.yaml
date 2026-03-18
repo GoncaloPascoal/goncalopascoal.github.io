@@ -30,6 +30,10 @@ dart:
   devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg
   name: Dart
   website: https://dart.dev
+docker:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg
+  name: Docker
+  website: https://www.docker.com
 fastapi:
   devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg
   name: FastAPI
