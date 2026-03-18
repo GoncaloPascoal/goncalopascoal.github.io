@@ -10,6 +10,7 @@ concepts:
     - Databases
     - REST API
     - Data Validation
+    - UI/UX
 description:
     "Full redesign of the TEUP website using modern languages and technologies. Mainly focused
     on backend, database and REST API."
