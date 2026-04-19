@@ -93,6 +93,10 @@ pandas:
   devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg
   name: Pandas
   website: https://pandas.pydata.org
+postgresql:
+  devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg
+  name: PostgreSQL
+  website: https://www.postgresql.org
 python:
   devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg
   name: Python

@@ -4,7 +4,7 @@ title: TEUP Website
 image: /assets/images/teup_website.png
 current: true
 tags: [personal]
-technologies: [react, typescript, python, fastapi, mysql, nginx, docker]
+technologies: [react, typescript, python, fastapi, postgresql, nginx, docker]
 concepts:
     - Web Development
     - Databases
