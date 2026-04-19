@@ -58,6 +58,7 @@ Music also one of my passions. I mostly play the guitar and mandolin, and know a
 
 - Dire Straits
 - Depeche Mode
+- Masayoshi Takanaka
 - Pink Floyd
 - Metallica
 - Queen
