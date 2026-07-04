@@ -97,6 +97,10 @@ postgresql:
   devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg
   name: PostgreSQL
   website: https://www.postgresql.org
+pydantic:
+  devicon: /assets/images/pydantic.svg
+  name: Pydantic
+  website: https://pydantic.dev/docs/validation/latest/get-started
 python:
   devicon: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg
   name: Python
