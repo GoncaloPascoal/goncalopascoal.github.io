@@ -14,4 +14,5 @@ concepts:
 description:
     "Full redesign of the TEUP website using modern languages and technologies. Mainly focused
     on backend, database and REST API."
+external_link: https://teup.niaefeup.pt/
 ---
